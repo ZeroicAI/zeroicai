@@ -1,10 +1,10 @@
 //! Messaging example - Agents communicating with each other
 
-use agentropic::prelude::*;
+use zeroicai::prelude::*;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    println!("📨 Agentropic Messaging Example\n");
+    println!("📨 ZeroicAI Messaging Example\n");
 
     // Create two agents
     let agent1_id = AgentId::new();
