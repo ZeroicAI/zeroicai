@@ -1,11 +1,11 @@
 //! Full stack example - Complete multi-agent system
 
-use agentropic::prelude::*;
+use zeroicai::prelude::*;
 
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    println!("🚀 Agentropic Full Stack Example\n");
+    println!("🚀 ZeroicAI Full Stack Example\n");
 
     // 1. Create runtime
     let config = RuntimeConfig::default();

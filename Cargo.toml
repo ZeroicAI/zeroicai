@@ -1,22 +1,22 @@
 [package]
-name = "agentropic"
+name = "ZeroicAI"
 version = "0.1.0"
 edition = "2021"
-authors = ["Agentropic Contributors"]
+authors = ["ZeroicAI Contributors"]
 license = "MIT OR Apache-2.0"
 description = "Comprehensive Rust framework for building intelligent, autonomous multi-agent systems"
-repository = "https://github.com/agentropic/agentropic"
-documentation = "https://docs.rs/agentropic"
+repository = "https://github.com/zeroicai/zeroicai"
+documentation = "https://docs.rs/ZeroicAI"
 keywords = ["agents", "multi-agent", "AOP", "autonomous", "coordination"]
 categories = ["simulation", "algorithms"]
 readme = "README.md"
 
 [dependencies]
-agentropic-core = { git = "https://github.com/agentropic/agentropic-core", branch = "main" }
-agentropic-messaging = { git = "https://github.com/agentropic/agentropic-messaging", branch = "main" }
-agentropic-cognition = { git = "https://github.com/agentropic/agentropic-cognition", branch = "main" }
-agentropic-patterns = { git = "https://github.com/agentropic/agentropic-patterns", branch = "main" }
-agentropic-runtime = { git = "https://github.com/agentropic/agentropic-runtime", branch = "main" }
+z-core = { git = "https://github.com/zeroicai/z-core", branch = "main" }
+z-messaging = { git = "https://github.com/zeroicai/z-messaging", branch = "main" }
+z-cognition = { git = "https://github.com/zeroicai/z-cognition", branch = "main" }
+z-patterns = { git = "https://github.com/zeroicai/z-patterns", branch = "main" }
+z-runtime = { git = "https://github.com/zeroicai/z-runtime", branch = "main" }
 
 [dev-dependencies]
 tokio = { version = "1.0", features = ["full"] }

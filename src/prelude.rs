@@ -1,9 +1,9 @@
-//! Unified prelude for the Agentropic framework.
+//! Unified prelude for the zeroicai framework.
 //!
 //! Import everything you need with a single use statement:
 //!
 //! ```rust
-//! use agentropic::prelude::*;
+//! use zeroicai::prelude::*;
 //! ```
 
 // Core primitives

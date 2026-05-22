@@ -1,6 +1,6 @@
 //! Integration tests for the facade crate
 
-use agentropic::prelude::*;
+use zeroicai::prelude::*;
 
 #[test]
 fn test_prelude_imports() {
