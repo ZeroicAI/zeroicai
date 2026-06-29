@@ -1,5 +1,12 @@
+# $ZeroicAI
 
-# ZeroicAI
+Contract Address:
+```bash
+yi66MMYBeHvMAbiboJeqVcjXh3b746D3P6nCRfypump
+```
+---
+
+## ZeroicAI
 
 [![Crates.io](https://img.shields.io/crates/v/zeroicai.svg)](https://crates.io/crates/zeroicai)
 [![Documentation](https://docs.rs/zeroicai/badge.svg)](https://docs.rs/zeroicai)
